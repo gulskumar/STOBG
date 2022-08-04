@@ -1,5 +1,4 @@
-
-variable "team_folder_name" {
+variable "root_folder_name" {
   type = string
 }
 
@@ -33,7 +32,7 @@ variable "third_level_folder_type" {
   default = []
 }
 
-
 variable "parent" {
   type = string
 }
+
